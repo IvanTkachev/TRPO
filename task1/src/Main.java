@@ -22,7 +22,7 @@ public class Main {
             result = 1;
         }
 
-        System.out.println(result);
+        System.out.println("It's " + result + " century");
     }
 
     public static int getCountsOfDigits(int number) {
