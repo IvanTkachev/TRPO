@@ -1,2 +1,1 @@
-Ivan 0 Vasya 1 2
-3 sad 3 5 Petya
+Ivan 0 Vasya 1 23 sad 3 5 Petya

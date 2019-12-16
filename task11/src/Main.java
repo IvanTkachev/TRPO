@@ -111,11 +111,10 @@ public class Main {
             if(check){
                 result.add(car);
             }
-
-            System.out.println("After filtering: ");
-            for (Car car1: result) {
-                System.out.println(car.getLicensePlate() + " " + car.getColor() + " " + car.getFullName() + " " + car.isOnParking());
-            }
+        }
+        System.out.println("After filtering: ");
+        for (Car car: result) {
+            System.out.println(car.getLicensePlate() + " " + car.getColor() + " " + car.getFullName() + " " + car.isOnParking());
         }
         return result;
     }
